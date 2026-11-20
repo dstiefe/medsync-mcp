@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "medsync-devices": {
+      "type": "http",
+      "url": "${MEDSYNC_DEVICES_URL:-https://mcp.medsync-ai.com/mcp}"
+    }
+  }
+}

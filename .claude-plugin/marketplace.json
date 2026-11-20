@@ -1,0 +1,14 @@
+{
+  "name": "medsync-devices",
+  "owner": {
+    "name": "Daniel Stiefel"
+  },
+  "plugins": [
+    {
+      "name": "medsync-devices",
+      "source": "./",
+      "description": "MedSync device intelligence: compare devices, check what works together, read label information and sizes, through your own Claude."
+    }
+  ],
+  "description": "MedSync device intelligence plugin: slash commands for the MedSync device graph MCP."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "medsync-devices",
+  "displayName": "MedSync Devices",
+  "description": "MedSync device intelligence: compare devices side by side, check what works together, read what a label says, and look up sizes, from the MedSync device graph, using your own Claude.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Daniel Stiefel"
+  }
+}
