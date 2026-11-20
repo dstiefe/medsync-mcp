@@ -8,6 +8,14 @@ Slash commands for the MedSync device-graph MCP, so people can type them in thei
 | `/works-with <devices>` | Whether devices fit or work together, or what works with one. |
 | `/label <question>` | What a label (IFU) says: an indication, a time window, a patient case. |
 | `/sizes <devices>` | Inner and outer diameter and the insertable length. |
+| `/find-device <name>` | Finds a device by name, with the closest matches and its documents. |
+| `/what-works-with <device> [kind]` | The devices of a kind that work with one device, with the reason each works or not. |
+| `/build-setup <d1>, <d2>, <d3>` | Checks a whole stack, slot by slot; names the pair that fails and why. |
+| `/indicated-for <situation>` | Devices whose label covers an occlusion site and time window, with the conditions. |
+| `/ifu <device> <topic>` | Quotes a section of the IFU (warnings, directions) in its own words. |
+| `/by-size <kind and size condition>` | Devices across a category above or below a size value. |
+| `/same-maker <manufacturer>` | A maker's devices by category. |
+| `/documents <device>` | The IFU, 510(k) and website links we hold. |
 
 ## How it connects
 
